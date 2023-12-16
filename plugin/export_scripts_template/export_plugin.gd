@@ -18,7 +18,7 @@ func _exit_tree():
 
 class AndroidExportPlugin extends EditorExportPlugin:
 	# TODO: Update to your plugin's name.
-	var _plugin_name = "GodotAndroidPluginTemplate"
+	var _plugin_name = "GodotAndroidRateme"
 
 	func _supports_platform(platform):
 		if platform is EditorExportPlatformAndroid:
@@ -33,3 +33,15 @@ class AndroidExportPlugin extends EditorExportPlugin:
 
 	func _get_name():
 		return _plugin_name
+
+	func _get_android_dependencies (platform, debug):
+		if debug:
+				return PackedStringArray([
+					"com.google.android.gms:play-services-base:18.2.0",
+					"com.google.android.play:review-ktx:2.0.1",
+					])
+		else:
+				return PackedStringArray([
+					"com.google.android.gms:play-services-base:18.2.0",
+					"com.google.android.play:review-ktx:2.0.1",
+					])
