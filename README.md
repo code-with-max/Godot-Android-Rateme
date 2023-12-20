@@ -63,3 +63,10 @@ if _rate_me_addon:
   func _on_rateme_error(err):
     printerr("ERROR due Rate Me: " + str(err))
   ```
+
+## Demo
+
+You can see how the plugin works using the example of a simple game "Snake":
+
+- ![Get it on Google Play Market](https://play.google.com/store/apps/details?id=org.godotengine.classicsnake4)
+- ![Explore source code of Snake project](https://github.com/trash-max/classic_snake_4)
