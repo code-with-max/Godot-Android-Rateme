@@ -6,7 +6,7 @@ The Google Play In-App Review plugin lets you prompt users to submit Play Store 
 
 ## Preparation for use
 
-- Go to ![Addon release page](https://github.com/trash-max/Godot-Android-Rateme/releases)
+- Go to [Addon release page](https://github.com/trash-max/Godot-Android-Rateme/releases)
 - Download the version of the add-on according to the required version of Godot
 - Unpack archive in /addons directory inside your project
 - Goto: Progect -> Project Settings... -> Plugins
@@ -68,5 +68,5 @@ if _rate_me_addon:
 
 You can see how the plugin works using the example of a simple game "Snake":
 
-- ![Get it on Google Play Market](https://play.google.com/store/apps/details?id=org.godotengine.classicsnake4)
-- ![Explore source code of Snake project](https://github.com/trash-max/classic_snake_4)
+- [Get it on Google Play Market](https://play.google.com/store/apps/details?id=org.godotengine.classicsnake4)
+- [Explore source code of Snake project](https://github.com/trash-max/classic_snake_4)
