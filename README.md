@@ -49,8 +49,8 @@ if _rate_me_addon:
 
 - Additionally, the plugin provides two signals:
   - Review is successful:
-  [!NOTE]
-  According to the policy, you will not be able to get information about what kind of rating the user has set.
+
+  >NOTE: According to the policy, you will not be able to get information about what kind of rating the user has set.
 
   ```gdscript
   func _on_rateme_completed():
